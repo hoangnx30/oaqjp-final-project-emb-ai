@@ -1,0 +1,4 @@
+$ .venv/bin/python
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector('I am so happy I am doing this.')
+{'anger': 0.1, 'disgust': 0.2, 'fear': 0.3, 'joy': 0.9, 'sadness': 0.4, 'dominant_emotion': 'joy'}
