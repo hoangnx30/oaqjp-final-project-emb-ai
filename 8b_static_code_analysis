@@ -1,0 +1,4 @@
+$ PYLINTHOME=/private/tmp/pylint-cache .venv/bin/python -m pylint server.py
+
+------------------------------------
+Your code has been rated at 10.00/10
