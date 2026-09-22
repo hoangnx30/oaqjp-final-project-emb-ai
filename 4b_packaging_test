@@ -1,0 +1,4 @@
+$ .venv/bin/python
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector('I hate working long hours.')
+{'anger': 0.91, 'disgust': 0.03, 'fear': 0.02, 'joy': 0.01, 'sadness': 0.03, 'dominant_emotion': 'anger'}
